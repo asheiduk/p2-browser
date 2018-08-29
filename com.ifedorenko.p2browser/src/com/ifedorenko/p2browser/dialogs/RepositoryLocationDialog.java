@@ -94,6 +94,7 @@ public class RepositoryLocationDialog
     {
         super.create();
 
+        combo.add( "http://download.eclipse.org/releases/photon" );
         combo.add( "http://download.eclipse.org/releases/oxygen" );
         combo.add( "http://download.eclipse.org/releases/neon" );
         combo.add( "http://download.eclipse.org/releases/mars" );
@@ -104,6 +105,7 @@ public class RepositoryLocationDialog
         // combo.add( "http://download.eclipse.org/releases/helios" );
         // combo.add( "http://download.eclipse.org/releases/galileo" );
 
+        combo.add( "http://download.eclipse.org/eclipse/updates/4.8" );
         combo.add( "http://download.eclipse.org/eclipse/updates/4.7" );
         combo.add( "http://download.eclipse.org/eclipse/updates/4.6" );
         combo.add( "http://download.eclipse.org/eclipse/updates/4.5" );
